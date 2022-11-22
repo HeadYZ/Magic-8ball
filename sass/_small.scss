@@ -1,0 +1,41 @@
+@media (min-width: 576px) {
+    .info {
+        h1 {
+            margin-bottom: 10px;
+            font-size: 4.5rem;
+        }
+    }
+
+    .ball {
+        .ball-img {
+            left: 40%;
+            transform: translateX(-40%);
+        }
+    }
+
+    @keyframes shake {
+        0% {
+            left: 38%;
+        }
+    
+        20% {
+            left: 42%;
+        }
+    
+        40% {
+            left: 38%;
+        }
+    
+        60% {
+            left: 41%;
+        }
+    
+        80% {
+            left: 40%;
+        }
+    
+        100% {
+            left: 41%;
+        }
+    }
+}

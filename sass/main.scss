@@ -28,15 +28,15 @@ body {
 	flex-direction: column;
 	width: 1000px;
 	height: 600px;
+	padding: .6em .6em;
 }
 
 .info {
-	margin-top: 20px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2.4rem;
 	h1 {
-		margin-bottom: 10px;
-		font-size: 60px;
+		margin-bottom: .3em;
+		font-size: 4rem;
 	}
 }
 
@@ -45,9 +45,10 @@ body {
 	height: 250px;
 	.ball-img {
 		position: absolute;
-		top: 30px;
-		left: 300px;
-		width: 300px;
+		top: 10%;
+		left: 20%;
+		transform: translateX(-20%);
+		width: 250px;
 		cursor: pointer;
 	}
 }
@@ -57,21 +58,22 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-size: 24px;
+	font-size: 2rem;
+	text-align: center;
 	h2 {
-		margin-bottom: 10px;
-		font-size: 36px;
+		margin-bottom: .5em;
+		font-size: 2.4rem;
 		text-transform: uppercase;
 	}
 	.question-input {
-		padding: 10px 20px;
+		padding: .5em 1em;
 		width: 80%;
-		font-size: 20px;
+		font-size: 2rem;
 		border: 2px solid #333;
-		border-radius: 8px;
+		border-radius: .5em;
 	}
 	.answer {
-		margin-top: 30px;
+		margin-top: 1.4em;
 		span {
 			font-weight: bold;
 		}
@@ -88,26 +90,30 @@ body {
 
 @keyframes shake {
 	0% {
-		left: 290px;
+		left: 18%;
 	}
 
 	20% {
-		left: 340px;
+		left: 22%;
 	}
 
 	40% {
-		left: 290px;
+		left: 18%;
 	}
 
 	60% {
-		left: 340px;
+		left: 21%;
 	}
 
 	80% {
-		left: 290px;
+		left: 20%;
 	}
 
 	100% {
-		left: 300px;
+		left: 21%;
 	}
 }
+
+@import 'small';
+@import 'medium';
+@import 'large';

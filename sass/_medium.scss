@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+    .ball {
+        .ball-img {
+            left: 45%;
+            transform: translateX(-45%);
+        }
+    }
+
+    @keyframes shake {
+        0% {
+            left: 42%;
+        }
+    
+        20% {
+            left: 47%;
+        }
+    
+        40% {
+            left: 43%;
+        }
+    
+        60% {
+            left: 46%;
+        }
+    
+        80% {
+            left: 45%;
+        }
+    
+        100% {
+            left: 46%;
+        }
+    }
+}
